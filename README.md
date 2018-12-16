@@ -2,6 +2,8 @@
 ---
 https://github.com/lodash/lodash
 
+https://lodash.com/
+
 ```html
 <script src="lodash.js"></script>
 ```
