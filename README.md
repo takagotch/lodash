@@ -23,5 +23,17 @@ var object = require('lodash/fp/object');
 
 var at = require('lodash/at');
 var curryN = require('lodash/fp/curryN');
+
+
+_.chunk(['a', 'b', 'c', 'd'], 2);
+_.chunk(['a', 'b', 'c', 'd'], 3);
+
+_.compact([0, 1, false, 2, '', 3]);
+
+var array = [1];
+var other = _.concat(array, 2, [3], [[4]]);
+
+_.times(3, String)
+_.times(4, _.constant(0));
 ```
 
